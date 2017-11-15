@@ -22,7 +22,7 @@ def doSummary(candidates):
 		logging.info(msg)
                 with open('last_summary.log', 'w') as f:
                     f.write(msg)
-		time.sleep(60)
+		time.sleep(60*30)
 
 
 
